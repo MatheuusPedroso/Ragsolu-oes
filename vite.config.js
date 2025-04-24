@@ -5,9 +5,9 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Ragsolu-oes/',
+  base: '/',
   build: {
-    outDir: 'docs' 
+    outDir: 'docs'
   },
   resolve: {
     alias: {
